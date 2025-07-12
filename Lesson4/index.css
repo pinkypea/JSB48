@@ -1,0 +1,81 @@
+
+#heading1 {
+    color: red;
+}
+
+#heading2 {
+    color: blue;
+}
+
+#heading3 {
+    color:saddlebrown;
+}
+
+.heading4 {
+    color: blueviolet;
+}
+
+.heading5 {
+    color:darkgreen;
+}
+
+.heading6 {
+    color: darkorange;
+}
+
+.item-list {
+    display: flex;
+    justify-content: space-around;
+}
+.item {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: blanchedalmond;
+    width: 30%;
+}
+
+.image {
+    height: 50%;
+}
+.buy-now {
+    width: 70%;
+    height: 30px;
+    color: white;
+    background-color: blue;
+    border: none;
+}
+
+.buy-now:hover {
+    color: blue;
+    background-color: white;
+}
+
+.alert {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    background-color: red;
+    border: 1px solid black;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+}
+
+.menu {
+    background-color: black;
+    color: white;
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    padding: 20px;
+}
+
+.back {
+    background-color: blue;
+    color: white;
+    left: 90%;
+    position: relative;
+}
